@@ -33,3 +33,43 @@ if __name__ == "__main__":
     print("bool([]) is {}".format(bool([]))) #False
     print("bool([1,2,3]) is {}".format(bool([1,2,3]))) #False        
 
+#IF    
+    expr = a is None
+    if expr:
+        print("Expression is true")
+    else:
+        print("expression is False")
+
+#More if and elif        
+    a = 20
+    if a > 30:
+        print("lol!")
+    elif a < 20:
+        print("lol again!")
+    else:
+        print("nice one!")
+
+#While        
+    a = 5
+    while a > 1:
+        print(a)
+        a -= 1;
+
+# str, bytes, list and dict + for loops
+
+    str1 = 'He said "Yes! We won"'
+    print(str1)
+    str2 = "It's very important to have consistency in what you type"
+    print(str2)
+
+    str1 = "This is\nsimilar to\nnext two string"
+    str2 = '''This is
+similar to
+next two string'''
+    str3 = """ This is
+similar to
+next two strings"""
+    print(str1)
+    print(str2)
+    print(str3)
+    

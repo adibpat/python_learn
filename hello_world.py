@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 import sys
 
 #Simple print
@@ -73,3 +73,5 @@ next two strings"""
     print(str2)
     print(str3)
     
+    rs = r'This is a raw string C:/MyDocuments/projects/blah-blah'
+    print(rs)

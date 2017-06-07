@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 import sys
 
 #Simple print
@@ -33,3 +33,5 @@ if __name__ == "__main__":
     print("bool([]) is {}".format(bool([]))) #False
     print("bool([1,2,3]) is {}".format(bool([1,2,3]))) #False        
 
+    rs = r'This is a raw string C:/MyDocuments/projects/blah-blah'
+    print(rs)

@@ -2,7 +2,7 @@
 import sys
 
 #Simple print
-print("Hello, World")
+print("Hello, import")
 
 #API to print that takes an argument
 def print_hello(who):
@@ -75,3 +75,26 @@ next two strings"""
     
     rs = r'This is a raw string C:/MyDocuments/projects/blah-blah'
     print(rs)
+
+# String conversion fun    
+    a = str(456)
+    print(type(a))
+    b = int(a)
+    print(type(b))
+
+    small = 'arjun'
+    print(small.capitalize()) # small remains unchanged
+
+# List are heterogeneous and mutable
+    cities = ['Paris', 'Kiev', 'Mumbai', 'Dallas',]
+    print(cities[0])
+    print(cities[2])
+
+# For loop
+    for city in cities:
+        print(city)
+
+# Dictionary
+    country_cap = {'India':'Delhi', 'China':'Beiging',}
+    for country in country_cap:
+        print(country,country_cap[country])
